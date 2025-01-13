@@ -1,0 +1,31 @@
+#pic {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  #b {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  

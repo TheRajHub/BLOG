@@ -1,0 +1,11 @@
+.cardgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between the cards */
+    margin: 20px; /* Optional, adds some margin around the grid */
+}
+@media (max-width: 680px) {
+    .cardgrid {
+        grid-template-columns: 1fr; /* 1 column for smaller screens */
+    }
+}
